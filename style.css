@@ -1,0 +1,86 @@
+body {
+    background-color: black;
+    padding: 40px;
+    margin: 0;
+}
+
+p {
+    color: white;
+}
+
+.caixa-título {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.linha {
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    border-color: transparent;
+    
+}
+
+#maior {
+    justify-content: space-between;
+}
+
+.título {
+    color: white;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.texto {
+    color: white;
+}
+
+.imagemDaDireita {
+    float: right;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -210px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.fotoDaDireita {
+    
+    width: 300px;
+}
+
+.imagemDeBaixo {
+    margin-top: 40px;
+
+}
+
+.fotoDeBaixo {
+    width: 400px;
+    
+}
+
+.caixa-imagem {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#maior2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.texto3 {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#pai-das-imagens {
+    display: flex;
+    margin: px;
+}
